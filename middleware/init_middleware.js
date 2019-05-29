@@ -10,7 +10,7 @@ const  AllowAccessProvitional = (req,res, next) => { /* REQ= conjunto para que g
     next();
 };
 
-module .export = (app) => {
+module .exports = (app) => {
     app.use(AllowAccessProvitional);
     app.use(bodyParser.urlencoded({extended:true, limit : '50nm'}));
     app.use(bodyParser.json({limit: '50mb'}));
@@ -22,3 +22,11 @@ module .export = (app) => {
 };
 
 /* Este es el Servidor*/
+
+/* las importaciones nos sirven para leer formatos jeison,   */
+/* Cookie--> es una variable donde podemos alojar cualquier cosa*/
+/* Json2xls--> Esta libreria json convertirla a xls  */
+/*  fileUpload--> Cargar archivos al servidor */
+
+
+/*  */

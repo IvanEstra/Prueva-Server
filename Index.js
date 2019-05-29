@@ -1,4 +1,4 @@
-"use stric";
+"use strict";
 
 const port = 8110;   /*En que puerto va a funcionar */
 const express = require('express'); /*exporta express */
